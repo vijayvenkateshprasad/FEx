@@ -263,14 +263,14 @@ th:last-child, td:last-child
 
 .closeImage
 {
-    background-image: url("/Scripts/FEx/Images/RightArrow.png");
+    background-image: url("FEx/Images/RightArrow.png");
     padding: 0 0 0 11px;margin-top: 3px;
     background-repeat: no-repeat;
 }
 
 .openImage
 {
-    background-image: url("/Scripts/FEx/Images/DownArrow.png") !important;
+    background-image: url("FEx/Images/DownArrow.png") !important;
     padding: 0 1px 0 10px;
     background-repeat: no-repeat;
 }
@@ -536,12 +536,12 @@ margin: 0 -5px;
 
 .wordIcon
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat -37px -34px;
+    background: url("FEx/images/icons.png") no-repeat -37px -34px;
 }
 
 .pdfIcon
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat 0px -34px;
+    background: url("FEx/images/icons.png") no-repeat 0px -34px;
 }
 
 .mediaIcon
@@ -550,57 +550,57 @@ margin: 0 -5px;
 
 .jsIcon
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat 0px -34px;
+    background: url("FEx/images/icons.png") no-repeat 0px -34px;
 }
 
 .txtIcon
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat -376px -34px
+    background: url("FEx/images/icons.png") no-repeat -376px -34px
 }
 
 .folderIcon
 {
-   background: url("/scripts/FEx/images/Folder.png") no-repeat;margin: 0 0 0 3px;
+   background: url("FEx/images/Folder.png") no-repeat;margin: 0 0 0 3px;
    padding: 4px 0 0;
 }
 
 .unknown
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat -76px -34px
+    background: url("FEx/images/icons.png") no-repeat -76px -34px
 }
 
 .zipIcon
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat -302px -34px
+    background: url("FEx/images/icons.png") no-repeat -302px -34px
 }
 
 .dllIcon
 {
-    background:url("/scripts/FEx/images/icons.png") no-repeat -151px -73px;
+    background:url("FEx/images/icons.png") no-repeat -151px -73px;
 }
 
 
 .movIcon
 {
-    background: url("/scripts/FEx/images/icons.png") no-repeat -1px -73px
+    background: url("FEx/images/icons.png") no-repeat -1px -73px
 }
 
 .jpgIcon
 {
-    background:url("/scripts/FEx/images/icons.png") no-repeat -264px -73px;
+    background:url("FEx/images/icons.png") no-repeat -264px -73px;
 }
 
 .gifIcon
 {
-    background:url("/scripts/FEx/images/icons.png") no-repeat -226px -73px;
+    background:url("FEx/images/icons.png") no-repeat -226px -73px;
 }
 
  .mp3Icon
 {
-    background:url("/scripts/FEx/images/icons.png") no-repeat -4px -113px;
+    background:url("FEx/images/icons.png") no-repeat -4px -113px;
 }
 
 .rarIcon
 {
-    background:url("/scripts/FEx/images/icons.png") no-repeat -339px -34px rgba(0, 0, 0, 0);
+    background:url("FEx/images/icons.png") no-repeat -339px -34px rgba(0, 0, 0, 0);
 }
