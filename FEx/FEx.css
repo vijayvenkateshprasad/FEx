@@ -1,0 +1,606 @@
+﻿/***********
+
+Provide your feedback @ vijayvenkateshprasadn@gmail.com
+
+************/
+
+#fEx_Container
+{
+    font-family: monospace;
+    font-size: large;
+    font-style: normal;
+}
+
+.drop-hover
+{
+    background-color: gray;
+}
+
+hr
+{
+    width: 97%;
+}
+
+ol, li
+{
+    list-style-type: none;
+}
+
+th, td
+{
+    padding: 2px;
+}
+
+td .fExFolderImg
+{
+    margin-left: 24%;
+}
+
+.fExDirectoryToolsCntnr
+{
+    width: 30%;
+}
+
+.fExDirectoryToolsCntnr > ul
+{
+    cursor: pointer;
+    float: left;
+    height: 0;
+    margin: 1px 0 0 28px;
+    padding: 1px;
+    min-width: 22%;
+}
+
+.fExDirectoryToolsCntnr ul a
+{
+    border-radius: 5px;
+    padding: 0 2px;
+}
+
+.fExDirectoryToolsCntnr ul a:hover
+{
+    box-shadow: 0 0 4px gray;
+}
+
+#fEx_Directory_Tools_Cntnr > ul > li
+{
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    margin: 1px 1px 1px 45px;
+    padding: 2px;
+    position: relative;
+    z-index: 1111;
+    display: none;
+}
+
+
+
+#fEx_Directory_Tools_Cntnr li
+{
+    width: 135px;
+}
+
+.fExDirectoryContainer
+{
+    background-color: whitesmoke;
+    float: right;
+    height: 20px;
+    width: 25px;
+}
+
+
+.fExDirectoryOptions
+{
+    border-radius: 5px;
+    float: right;
+    height: 20px;
+    margin: 2px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 4px gray;
+}
+
+.contentDiv
+{
+    float: left;
+}
+
+b.contentDiv
+{
+    width: 25%;
+}
+
+div.contentDiv
+{
+    padding: 0 15px;
+}
+
+#sortedBy
+{
+    float: right;
+    height: 20px;
+    overflow: hidden;
+    width: 65%;
+}
+
+th.ascending
+{
+    border-bottom: 2px solid;
+}
+
+
+th.descending
+{
+    border-top: 2px solid;
+}
+
+.folderGrid
+{
+    width: 100%;
+    text-align: justify;
+}
+
+.folderGrid td div, .folderGrid th div
+{
+    max-width: 200px;
+    min-height: 20px;
+    word-wrap: break-word;
+}
+
+.folderGrid tbody tr:hover
+{
+    box-shadow: 1px 1px 4px #563e5e;
+    background-color: #f4f1e6;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+
+th:last-child, td:last-child
+{
+    border-right: 0px;
+}
+
+.folderGrid th
+{
+    cursor: pointer;
+}
+
+.fExContainer
+{
+    float: left;
+    padding: 0;
+    width: 98%;height: 100%;
+}
+
+.fExContainer
+{
+    box-shadow: 2px 12px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.fExDirectoryField, .fExFolderField, .fExDocumentField
+{
+    width: 30%;
+    float: left;
+    overflow: auto; height: 85%;
+}
+
+.fExFolderField
+{
+    border-left: 1px solid gray;
+    overflow: hidden;padding: 0 0 10px;
+}
+
+.fExDocumentField
+{
+    width: 39.5%;
+    border: 0px;
+}
+
+.fExResourceFolder
+{
+    cursor: pointer;
+    display: table;
+    line-height: 1em;
+}
+
+.fExRoot
+{
+    max-height: 500px;
+    padding: 15px 25px 15px 15px;
+}
+
+.fExResource
+{
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+.folderActive .fExResourceTitle
+{
+    background-color: #cccccc;
+    box-shadow: 1px 1px -1px gray;
+    border-radius: 4px;
+    padding: 1px;
+    box-shadow: 3px 4px 3px gray;
+}
+
+.folderDefault
+{
+    box-shadow: 1px 1px -1px gray;
+    color: black !important;
+    border-radius: 4px;
+}
+
+.fExResourceFolder .fExResourceTitle
+{
+    display: initial;
+    padding: 0 5px;
+    display: -webkit-box;    
+}
+
+.fExFolderImg
+{
+    display: table-cell;
+    height: 16px;
+    margin-right: 5px;
+    width: 16px;
+    float: left;
+}
+
+.closeImage, .openImage
+{
+    height: 15px;
+    margin-right: 7px;
+    float: left;
+}
+
+.closeImage
+{
+    background-image: url("/Scripts/FEx/Images/RightArrow.png");
+    padding: 0 0 0 11px;margin-top: 3px;
+    background-repeat: no-repeat;
+}
+
+.openImage
+{
+    background-image: url("/Scripts/FEx/Images/DownArrow.png") !important;
+    padding: 0 1px 0 10px;
+    background-repeat: no-repeat;
+}
+
+.resourceRootName
+{
+    margin-left: 15px;
+    color: red;cursor:pointer;
+}
+
+
+.folderMap
+{
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 4%;
+    overflow: hidden;
+    padding: 1% 4px 2.2% 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.folderFileCount
+{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 30px;
+    padding-left: 12px;    
+}
+
+.folderGridContainer
+{
+    overflow: auto;
+    margin-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    min-height: 80%;
+    max-height: 85%;
+    border-right: 1px solid gray;
+}
+
+
+
+.fExToolBar
+{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 25px;
+    width: 100%;
+}
+
+.selectedRow
+{
+    background-color: #ccc;
+}
+
+.thCheckBox
+{
+    text-align: left;
+}
+
+.fExDocumentFieldTitle
+{
+    height: 10%;
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+}
+
+.fExDocumentFieldContent
+{
+    padding: 3px;
+}
+
+
+#fEx_Directory_Options li
+{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: none;
+    float: right;
+    margin: 1px 23px 0 0;
+    padding: 2px;
+    position: relative;
+    text-align: left;
+    width: 110px;
+    z-index: 97895;
+}
+
+#fEx_Directory_Options li:hover
+{
+    background-color: #565246;
+    color: whitesmoke;
+}
+
+#fEx_Directory_Tools_Cntnr li:hover
+{
+    background-color: #565246;
+    color: whitesmoke;
+}
+
+.fExDirectoryMenuImg
+{
+    width: 25px;
+    height: 20px;
+}
+
+.fExDirectoryMenuImg:hover
+{
+    box-shadow: 0 0 4px gray;
+}
+
+#alert, #confirm
+{
+    background-color: #abd0ea;
+    border-radius: 3px;
+    color: black;
+    display: none;
+    padding: 10px;
+    position: fixed;
+    z-index: 758462;
+}
+
+.footer
+{
+    float: right;
+}
+
+.btnPrimary, .btnSecondary
+{
+    background-color: #cc74e0;
+    border-radius: 5px;
+    color: white;
+    margin: 1px 5px;
+    padding: 2px;
+}
+
+.btnSecondary
+{
+    background-color: #e190ff;
+}
+
+.btnPrimary:hover, .btnSecondary:hover
+{
+    box-shadow: 0 2px 2px gray;
+    cursor: pointer;
+}
+
+.body
+{
+    padding: 15px 5px;
+}
+
+#folderText
+{
+    border-radius: 5px;
+    padding: 0 2px;
+}
+
+.detailsCont
+{
+    padding: 5px;
+    clear: both;
+}
+
+
+
+.mCSB_dragger_bar
+{
+    width: 10px !important;
+}
+
+#mCSB_2_scrollbar_vertical, #mCSB_1_scrollbar_vertical
+{
+    background-color: none !important;
+}
+
+#mCSB_2_dragger_horizontal, #mCSB_1_dragger_horizontal
+{
+    background-color: #c7c7c7;
+    border-radius: 40px;
+    display: block;
+    left: 0;
+    max-width: 347px;
+    min-width: 170px;
+    position: absolute;
+    width: inherit !important;
+    height: 10px;
+    margin-top: 3px;
+}
+
+.mCSB_dragger_bar
+{
+    background-color: #c7c7c7 !important;
+}
+
+
+/*moving the scroller inside the container*/
+.mCSB_outside + .mCSB_scrollTools
+{
+    right: 0px !important;
+}
+
+#mCSB_2_dragger_horizontal .mCSB_dragger_bar, #mCSB_1_dragger_horizontal .mCSB_dragger_bar
+{
+    background: none !important;
+}
+
+/*Moving the dragger inside the container*/
+.mCustomScrollBox + .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal
+{
+    bottom: 0px !important;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail
+{
+    background-color: inherit !important;
+    box-shadow: none !important;
+}
+
+#fEx_Container #fEx_Directory_Field .ui-resizable-e
+{
+    right: 0px;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 720px)
+{
+
+    .fExFolderField, .fExDocumentField,.fExDirectoryField
+    {
+        width: 10%; 
+         -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+        transition: width 2s;               
+       float:left;
+        overflow:hidden;
+        opacity:0.4;
+    }
+
+    /*.fExToolOptions { position: absolute;    right: 11%;}*/
+    .fExDirectoryField.active,.fExFolderField.active, .fExDocumentField.active
+    {
+          width: 79.3%; opacity:0.99;
+    }
+ 
+    .fExFolderField:hover, .fExDocumentField:hover,.fExDirectoryField:hover {
+        width: 79.3%;    opacity:0.99;  
+    }
+    
+}
+
+
+.icons
+{
+width: 20px;
+height: 0px;
+padding: 4px;
+margin: 0 -5px;
+}
+
+.wordIcon
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat -37px -34px;
+}
+
+.pdfIcon
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat 0px -34px;
+}
+
+.mediaIcon
+{
+}
+
+.jsIcon
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat 0px -34px;
+}
+
+.txtIcon
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat -376px -34px
+}
+
+.folderIcon
+{
+   background: url("/scripts/FEx/images/Folder.png") no-repeat;margin: 0 0 0 3px;
+   padding: 4px 0 0;
+}
+
+.unknown
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat -76px -34px
+}
+
+.zipIcon
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat -302px -34px
+}
+
+.dllIcon
+{
+    background:url("/scripts/FEx/images/icons.png") no-repeat -151px -73px;
+}
+
+
+.movIcon
+{
+    background: url("/scripts/FEx/images/icons.png") no-repeat -1px -73px
+}
+
+.jpgIcon
+{
+    background:url("/scripts/FEx/images/icons.png") no-repeat -264px -73px;
+}
+
+.gifIcon
+{
+    background:url("/scripts/FEx/images/icons.png") no-repeat -226px -73px;
+}
+
+ .mp3Icon
+{
+    background:url("/scripts/FEx/images/icons.png") no-repeat -4px -113px;
+}
+
+.rarIcon
+{
+    background:url("/scripts/FEx/images/icons.png") no-repeat -339px -34px rgba(0, 0, 0, 0);
+}
